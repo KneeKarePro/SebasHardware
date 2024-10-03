@@ -6,7 +6,7 @@ const int adc_pin = 36;
 // Function to read the ADC value from the potentiometer
 uint16_t readADC() {
   uint16_t adc_value = analogRead(adc_pin);
-  float degree = (adc_value / 4095.0) * 194.0;
+  float degree = (adc_value / 4095.0) * 290.0;
   return degree;
 }
 
